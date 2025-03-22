@@ -1,0 +1,132 @@
+body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+        }
+
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .input-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            height: 100px;
+            resize: vertical;
+        }
+
+        .post-preview {
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-top: 20px;
+            background: white;
+            border-radius: 8px;
+            position: relative;
+            min-height: 400px;
+        }
+
+        .profile-section {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .profile-pic {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #ddd;
+            margin-right: 10px;
+            overflow: hidden;
+        }
+
+        .post-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 4px;
+            margin-bottom: 15px;
+        }
+
+        .post-actions {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: white;
+            border-top: 1px solid #ddd;
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 15px;
+            margin-left: 15px;
+        }
+
+        .action-button {
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            color: #262626;
+        }
+
+        .action-button span {
+            margin-left: 5px;
+        }
+
+        .post-text {
+            font-size: 14px;
+            line-height: 1.4;
+            word-wrap: break-word;
+            margin-bottom: 50px;
+        }
+
+        .username-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .verified-badge {
+            width: 36px;
+            height: 24px;
+            margin-left: 6px;
+        }
+
+        button {
+            background: #0095f6;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        button:hover {
+            background: #007cc;
+        }
+    </style>
